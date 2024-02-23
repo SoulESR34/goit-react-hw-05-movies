@@ -2,7 +2,7 @@ import { lazy } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 const Home = lazy(() => import('../Pages/Home/Home'));
-const Movies = lazy(() => import('Pages/Movies/Movies'));
+const Movies = lazy(() => import('../Pages/Movies/Movies'));
 const MovieDetails = lazy(() => import('Pages/MovieDetails/MovieDetails'));
 const Header = lazy(() => import('./Header/Header'));
 const Reviews = lazy(() => import('./Reviews/Reviews'));
